@@ -1,0 +1,113 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.c9/
+*.sublime-workspace
+*.sublime-project
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Build and run
+*.log
+out/
+build/
+dist/
+*.class
+*.jar
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Spring Boot
+application-dev.properties
+application-prod.properties
+application-test.properties
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Gradle (if applicable)
+.gradle
+build/
+gradle/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Drools specific
+C:/drools-rules/
+*.rete
+*.drl.bak
+
+# JUnit coverage
+.jacoco
+*.exec
+
+# JetBrains IDEs specific
+.idea
+*.iml
+out/
+
+# Spring Boot DevTools
+.springBoot
+
+# Lombok
+.apt_generated
+.apt_generated_tests
+_test-output/
+debug/
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Custom directories
+temp/
+logs/
+cache/
+
