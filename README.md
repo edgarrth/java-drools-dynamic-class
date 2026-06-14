@@ -1,4 +1,4 @@
-# Drools POC (Proof of Concept)
+# Drools Dynamic Class
 
 ## Descripción del Proyecto
 
