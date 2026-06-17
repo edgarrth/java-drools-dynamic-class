@@ -214,40 +214,6 @@ Content-Type: application/json
 
 ---
 
-## Características Principales
-
-✅ **Carga Dinámica de Reglas** - Las reglas se cargan desde archivos externos  
-✅ **Transformación de Datos** - Transforma entidades genéricas según reglas específicas  
-✅ **API REST** - Expone funcionalidad mediante endpoints REST  
-✅ **Flexible** - Soporta cualquier tipo de entidad mediante estructura genérica  
-✅ **Integrado con Spring Boot** - Aprovecha todo el ecosistema Spring  
-✅ **Motor de Reglas Empresariales** - Utiliza el potente motor Drools  
-
----
-
-## Flujo de Ejecución
-
-```
-1. Cliente envía POST a /api/transform
-   ↓
-2. DroolsController recibe GenericEntity
-   ↓
-3. DroolsService.applyRules(GenericEntity)
-   ↓
-4. Carga archivo .drl según tipo de entidad
-   ↓
-5. Compila y crea KieSession (sesión de Drools)
-   ↓
-6. Inserta datos en la sesión y dispara reglas
-   ↓
-7. Las reglas transforman los datos
-   ↓
-8. Retorna TransformedEntity con resultado
-   ↓
-9. Controller devuelve respuesta JSON al cliente
-```
-
----
 
 ## Extensibilidad
 
@@ -260,9 +226,8 @@ Para agregar nuevos tipos de entidades:
 
 ---
 
-## Notas Importantes
+## Notas
 
 - Las reglas deben estar en el directorio configurado: `C:/drools-rules/`
-- El sistema es case-sensitive para tipos de entidades
 - Las reglas se compilan dinámicamente cada vez que se invocan
 - TransformedEntity actúa como variable global en la ejecución de reglas
